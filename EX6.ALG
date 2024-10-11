@@ -7,8 +7,8 @@ Var
  mediaclasse:real
 
 Inicio
-   acmnota:=0
-   acmmedia:=0
+   acmnota:=1
+   acmmedia:=1
      para i de 1 ate 5 faca
         escreval("digite o nome do aluno")
         leia(nome)
