@@ -17,16 +17,17 @@ Inicio
         leia(nota)
         acmnota:=acmnota + nota
      fimpara
+
         media:= acmnota/4
-        escreval("a média do aluno",nome," é: ",media:2:1)
+        escreval("a mÃ©dia do aluno",nome," Ã©: ",media:2:1)
         se(media <=3) entao
-           escreval("o aluno", nome,"está reprovado")
+           escreval("o aluno", nome,"estÃ¡ reprovado")
           senao
              se(media <7)entao
-             escreval("o aluno",nome,"está de exame")
+             escreval("o aluno",nome,"estÃ¡ de exame")
             senao
                se(media>=7)entao
-                  escreval("o aluno",nome< "está aprovado")
+                  escreval("o aluno",nome< "estÃ¡ aprovado")
                fimse
             fimse
           fimse
@@ -37,6 +38,6 @@ Inicio
 fimpara
           
              mediaclasse:=acmmedia/5
-              escreval("a média da classe é:",mediaclasse:2:1)
+              escreval("a mÃ©dia da classe Ã©:",mediaclasse:2:1)
 
 Fimalgoritmo
